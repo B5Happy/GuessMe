@@ -101,9 +101,44 @@ var flashcardsDictionary = [
         capital: 'Gangtok'
       },
       {
-        state: 'Gujarat',
-        capital: 'Gandhi Nagar'
-      },
+        state: 'Meghalaya',
+        capital: 'Shillong'
+      },{
+        state: 'Tripura',
+        capital: 'Agartala'
+  },
+  {
+    state: 'Manipur',
+    capital: 'Imphal'
+  },
+  {
+    state: 'Nagaland',
+    capital: 'Kohima'
+  },{
+    state: 'Mizoram',
+    capital: 'Aizawal'
+  },{
+    state: 'Delhi',
+    capital: 'Delhi'
+  },{
+    state: 'Chandigarh',
+    capital: 'Chandigarh'
+  },{
+    state: 'Daman&Diu',
+    capital: 'Daman'
+  },{
+    state: 'Dadra Nagar Haveli',
+    capital: 'Silvassa'
+  },{
+    state: 'Puducherry',
+    capital: 'Puducherry'
+  },{
+    state: 'Andaman and Nicobar',
+    capital: 'Port Blair'
+  },{
+    state: 'Lakshdweep',
+    capital: 'Kavaratti'
+  }
 
 
 ];

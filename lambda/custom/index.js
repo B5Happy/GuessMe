@@ -216,6 +216,12 @@ var handlers = {
     this.emit(':responseReady');
   },
 
+  // Help
+  'AMAZON.HelpIntent': function () {
+    this.response.speak('I have no clue.').listen('Sorry, I can not help you !');
+    this.emit(':responseReady');
+  },
+  
   // Stop
   "AMAZON.StopIntent": function() {
     this.response.speak("Ok, let's play again soon.");

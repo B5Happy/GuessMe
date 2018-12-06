@@ -1,0 +1,77 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "capital quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "capital",
+                            "type": "capital"
+                        }
+                    ],
+                    "samples": [
+                        "euhh {capital}",
+                        "maybe {capital}",
+                        "i think {capital}",
+                        "{capital}",
+                        "is it {capital}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "capital",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "delhi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bangulure"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mumbai "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pondicherry"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chennai"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
